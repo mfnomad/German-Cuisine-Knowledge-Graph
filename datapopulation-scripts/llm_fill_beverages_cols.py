@@ -4,7 +4,6 @@ import json
 import json5
 
 
-
 def check_ollama_model_info(model="gemma3:12b"):
     try:
         response = requests.post(
@@ -34,24 +33,21 @@ model_name = "gemma3:12b"  # Change if using a different model
 gpu_enabled = check_ollama_model_info(model=model_name)
 
 
-
 # Load the top 10 rows of the CSV file
-df = pd.read_csv("../data/dishes_extracols.csv").head(10)
+df = pd.read_csv("../data/beverages_enriched.csv").head(5)
 
 # Define the list of columns to be filled in
 columns_to_fill = [
-    "Description",
-    "Region",
-    "MainIngredient",
-    "Ingredients",
-    "StateOfMainIngredient",
-    "DietType",
-    "MealEatenAtPartOfDay",
-    "Variations",
-    "FlavorProfiles",
-    "PreparationMethod",
-    "PreparationTimeMinutes",
-    "MeatCut"
+    "Description",                  # Short description of the beverage
+    "Region",                       # Regions in Germany where it's popular
+    "MainIngredient",              # Main component (e.g., barley, grapes, apple)
+    "Ingredients",                 # Comma-separated full ingredient list
+    "FlavorProfiles",             # e.g., fruity, bitter, sweet, herbal
+    "IsCarbonated",                # 'yes' or 'no'
+    "AlcoholContent",              # Percentage value or 'non-alcoholic'
+    "BeverageType",                # e.g., beer, wine, soda, juice
+    "ServingTemperature",          # e.g., chilled, room temperature, hot
+    "IsGermanStaple",              # 'yes' if culturally significant
 ]
 
 # Ensure all columns exist and are strings
@@ -63,14 +59,14 @@ for col in columns_to_fill:
 
 # Function to generate a prompt from the entire row
 def generate_row_prompt(row):
-    dish_name = row["DishName"]
+    beverage_name = row["BeverageName"]
     known_fields = {col: row[col] for col in columns_to_fill if pd.notna(row[col]) and row[col].strip() != ""}
     missing_fields = [col for col in columns_to_fill if col not in known_fields]
 
     prompt = (
-        f"You are an expert in German cuisine. You will receive only the name of a dish, "
+        f"You are an expert in German Beverages. You will receive only the name of a beverage, "
         f"and your task is to fill in the missing fields. Respond in English and don't use special german characters such as ä, ö, ü, ß. \n DO NOT add any additional information or context or comment.\n\n"
-        f"DishName: {dish_name}\n"
+        f"BeverageName: {beverage_name}\n"
     )
     for key, value in known_fields.items():
         prompt += f"{key}: {value}\n"
@@ -80,18 +76,16 @@ def generate_row_prompt(row):
     prompt += f"{missing_fields}\n\n"
     prompt += (
         "Field Restrictions:\n"
-        "- Description: Short dish description, don't mention the word 'german' - String.\n"
-        "- Region: Regions in Germany where the dish is popular - can be multiple, don't mention the word 'Germany' - String.\n"
+        "- Description: Short beverage description, don't mention the word 'german' - String.\n"
+        "- Region: Regions in Germany where the beverage is popular - can be multiple, can even include neighboring countries, don't mention the word 'Germany' - String.\n"
         "- MainIngredient: Single Main component - String.\n"
         "- Ingredients: comma-separated list - String.\n"
-        "- StateOfMainIngredient: e.g. raw, boiled, sliced - String.\n"
-        "- DietType: comma-separated list from ['vegetarian', 'vegan', 'omnivore', 'halal', 'kosher'] Note: be accomodating to as many diets as possible - if a dish has no meat or fish - be sure to include atleast 'vegetarian'.\n"
-        "- MealEatenAtPartOfDay: comma-separated from ['breakfast', 'lunch', 'dinner', 'anytime'].\n"
-        "- Variations: comma-separated list - String.\n"
-        "- FlavorProfiles: comma-separated from ['sweet', 'sour', 'bitter', 'spicy', 'savory', 'umami', 'aromatic', 'nutty', 'smoky', 'cheesy', 'creamy', 'mild', 'earthy', 'fruity', 'tangy', 'buttery'].\n"
-        "- PreparationMethod: Preparation method regarding MainIngredient e.g. boiling, frying, engulfed in sauce - String.\n"
-        "- PreparationTimeMinutes: Estimated time a dish takes to be served in a restaurant - Integer.\n"
-        "- MeatCut: Cut of meat if applicable e.g. chicken breast or beef fillet or lamb loin etc. - String or empty."
+        "- FlavorProfiles: String list, comma-separated from ['sweet', 'bitter', 'sour', 'fruity', 'malty', 'hoppy', 'herbal', 'citrusy', 'spiced', 'floral', 'nutty', 'chocolaty', 'caramel-like', 'yeasty', 'creamy', 'smooth', 'dry', 'refreshing', 'earthy'].\n"
+        "- IsCarbonated: 'yes' or 'no' - String.\n"
+        "- AlcoholContent: Alcohol by volume percentage - Float.\n"
+        "- BeverageType: Type of beverage e.g. beer, wine, soda, juice, coffee - String.\n"
+        "- ServingTemperature: Serving temperature, e.g., 'chilled', 'room temperature', 'hot' - String.\n"
+        "- IsGermanStaple: 'yes' if culturally significant, otherwise 'no' - String.\n"
     )
     print("Prompt for LLM:", prompt)  # Debugging line to see the generated prompt
     return prompt
@@ -160,4 +154,4 @@ for idx, row in df.iterrows():
 print(df)
 
 # Save to file
-df.to_csv("../data/dishes_filled_top10_gemma3_12b.csv", index=False)
+df.to_csv("../data/beverages_filled_top5_gemma3_12b.csv", index=False)

@@ -1,0 +1,11 @@
+DishName,Description,Region,MainIngredient,Ingredients,StateOfMainIngredient,DietType,MealEatenAtPartOfDay,Variations,FlavorProfiles,PreparationMethod,PreparationTimeMinutes,MeatCut
+Allgaeuer Kaesespaetzle,Tasty pasta-like dish with cheese and onions,Bavaria,Spätzle,"Spätzle, onions, cheese, butter",boiled,vegetarian,"lunch,dinner",,"cheesy, savory, umami",topped with melted cheese and fried onions,15,
+Altmaerkische Hochzeitssuppe,Hearty wedding soup from the Baltic coast,Mecklenburg-Vorpommern,Vegetable broth,"Carrots, celery, potatoes, onions, cabbage, beef bones, barley, parsley, thyme",Boiled,vegetarian,dinner,,"savory, umami, aromatic",Simmered in vegetable broth,30,
+Apfel Birnen Marmelade,Autumnal fruit jam,Bavaria,Apples and pears,"Apples, pears, sugar, water",Cooked,vegetarian,anytime,,"sweet, fruity, tangy",Cooking with sugar and water,30,
+Apfel-Kuerbis-Marmelade,Sweet and tangy jam made with apples and pumpkins,Bavaria,Pumpkin,"Apples, Pumpkins, Sugar, Water",Cooked,Vegetarian,"Breakfast, Anytime",,"Sweet, Tangy, Fruity",Boiling and Cooking,20,
+Apfelkren,A sweet and tangy condiment made with apples,Bavaria,Apples,"Apples, onions, mustard seeds, vinegar",Raw,Vegetarian,Anytime,,"Sweet, Tangy",Chopping and mixing,15,
+Apfelkuchen mit Decke,Moist apple cake with streusel topping,Bavaria,Apples,"apples, butter, sugar, flour, eggs, cinnamon, streusel topping (flour, butter, sugar)",sliced and sautéed,vegetarian,anytime,,"sweet, fruity, tangy",baking,45,
+Apfelkuechle,A traditional fruit pastry,Bavaria,Apple,"Apples, Pastry dough, Sugar, Cinnamon",Sliced,Vegetarian,Anytime,Filled with raisins or cherries,"Sweet, Aromatic",Pastry wrapping and baking,30,
+Apfelriemchen,Deep-fried apple fritters,Bavaria,Apples,"Apples, Flour, Egg, Sugar, Cinnamon",Sliced,Vegetarian,Anytime,With whipped cream or vanilla ice cream,"Sweet, Fruity",Breading and deep-frying,20,
+Apfelstrudel,Layered pastry filled with apples and spices,Bavaria,Apple,"Apples, sugar, cinnamon, raisins, puff pastry",Cooked,vegetarian,dinner,with custard or whipped cream,"sweet, fruity, aromatic",baked in the oven,30,
+Apfelstrudel mit fertigem Blaetterteig,Cinnamon-spiced apple pastry,Bavaria,Apple,"Apples, sugar, cinnamon, puff pastry",Sliced,vegetarian,anytime,,"sweet, caramelized",Wrapped in pastry and baked,30,

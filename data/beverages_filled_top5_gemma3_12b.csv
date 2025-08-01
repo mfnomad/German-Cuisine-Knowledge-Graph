@@ -1,0 +1,6 @@
+BeverageName,Description,Region,MainIngredient,Ingredients,FlavorProfiles,IsCarbonated,AlcoholContent,BeverageType,ServingTemperature,IsGermanStaple
+Abteibier,Trappist-style beer brewed by monks.,"Bavaria, Austria, Switzerland",Barley,"Barley, Hops, Water, Yeast, Wheat","['bitter', 'malty', 'yeasty', 'smooth', 'dry']",yes,7.0,beer,chilled,no
+Adambier,"Strong, dark lager with roasted malt flavors.","North Rhine-Westphalia, Bavaria, Austria",Barley,"Barley, Hops, Water, Yeast","['bitter', 'malty', 'nutty', 'yeasty', 'smooth', 'dry']",no,5.5,Beer,chilled,yes
+Ale (Bier),A fermented malt beverage.,"Bavaria, North Rhine-Westphalia, Austria",Barley,"Barley, Hops, Water, Yeast","hoppy, malty, bitter, yeasty",no,4.5,beer,chilled,yes
+Alkoholfreies Bier,Non-alcoholic malt beverage with a beer-like taste.,"Bavaria, North Rhine-Westphalia, Austria",Malted Barley,"Malted barley, hops, water, yeast","['bitter', 'malty', 'hoppy', 'yeasty', 'refreshing']",yes,0.0,Beer,chilled,yes
+Alsterwasser,"A refreshing, lemon-flavored beer cocktail.","Hamburg, Schleswig-Holstein, Lower Saxony",Beer,"Beer, lemon juice, lemon soda, sugar","['citrusy', 'sweet', 'refreshing', 'smooth']",yes,2.5,Beer Cocktail,chilled,yes

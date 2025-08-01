@@ -1,0 +1,6 @@
+(Ollama) Models that run well even on CPU:
+
+
+Mistral:7b
+gemma3:12b  <--- best performance
+llama3:3b
