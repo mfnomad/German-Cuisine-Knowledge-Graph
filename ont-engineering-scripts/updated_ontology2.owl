@@ -1660,7 +1660,7 @@
         <germ:hasMainIngredient rdf:resource="http://example.org/german-cuisine#Potato"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#dinner"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="http://example.org/german-cuisine#dinner"/>
-        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#beef_chuck,_pork_shoulder,_lamb_shoulder"/>
+        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#beef_chuck"/>
         <germ:hasPreparationMethod rdf:resource="http://example.org/german-cuisine#baking"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Alsace"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Lorraine"/>
@@ -4686,7 +4686,7 @@
         <germ:hasMainIngredient rdf:resource="http://example.org/german-cuisine#Meatballs"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#dinner"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="http://example.org/german-cuisine#dinner"/>
-        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#beef,_pork"/>
+        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#Ground_beef"/>
         <germ:hasPreparationMethod rdf:resource="http://example.org/german-cuisine#baked"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Austria"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Bavaria"/>
@@ -8724,7 +8724,7 @@
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#anytime"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#dinner"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#lunch"/>
-        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#beef,_pork,_veal"/>
+        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#Ground_beef"/>
         <germ:hasPreparationMethod rdf:resource="http://example.org/german-cuisine#frying"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Austria"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Baden-Württemberg"/>
@@ -11614,7 +11614,7 @@
         <germ:hasMainIngredient rdf:resource="http://example.org/german-cuisine#Pate"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#dinner"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="http://example.org/german-cuisine#dinner"/>
-        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#ground_pork,_ground_veal"/>
+        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#ground_beef"/>
         <germ:hasPreparationMethod rdf:resource="http://example.org/german-cuisine#baked"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Austria"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Bavaria"/>
@@ -11969,7 +11969,7 @@
         <germ:hasMainIngredient rdf:resource="http://example.org/german-cuisine#Ground_meat"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#dinner"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="http://example.org/german-cuisine#dinner"/>
-        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#beef,_pork"/>
+        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#Ground_beef"/>
         <germ:hasPreparationMethod rdf:resource="http://example.org/german-cuisine#baked"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Austria"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Bavaria"/>
@@ -12003,7 +12003,7 @@
         <germ:hasMainIngredient rdf:resource="http://example.org/german-cuisine#Ground_meat"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#dinner"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="http://example.org/german-cuisine#dinner"/>
-        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#beef,_pork,_veal"/>
+        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#Ground_beef"/>
         <germ:hasPreparationMethod rdf:resource="http://example.org/german-cuisine#baking"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Austria"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Bavaria"/>
@@ -12078,7 +12078,7 @@
         <germ:hasMainIngredient rdf:resource="http://example.org/german-cuisine#Meatballs"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#dinner"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="http://example.org/german-cuisine#dinner"/>
-        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#beef,_pork"/>
+        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#Ground_beef"/>
         <germ:hasPreparationMethod rdf:resource="http://example.org/german-cuisine#frying"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Austria"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Bavaria"/>
@@ -16908,7 +16908,7 @@
         <germ:hasMainIngredient rdf:resource="http://example.org/german-cuisine#Meatballs"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#dinner"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#lunch"/>
-        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#ground_beef,_ground_veal"/>
+        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#ground_beef"/>
         <germ:hasPreparationMethod rdf:resource="http://example.org/german-cuisine#in_white_sauce"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#East_Prussia"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Lithuania"/>
@@ -19972,7 +19972,7 @@
         <germ:hasMainIngredient rdf:resource="http://example.org/german-cuisine#Pasta_Dough"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#dinner"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#lunch"/>
-        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#ground_beef,_veal"/>
+        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#ground_beef"/>
         <germ:hasPreparationMethod rdf:resource="http://example.org/german-cuisine#fried"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Austria"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Baden-Württemberg"/>
@@ -32063,14 +32063,6 @@
     
 
 
-    <!-- http://example.org/german-cuisine#Tafelspitz -->
-
-    <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#Tafelspitz">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://example.org/german-cuisine#Tafelspitz_mit_Meerrettichsosse -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#Tafelspitz_mit_Meerrettichsosse">
@@ -34095,7 +34087,7 @@
         <germ:hasMainIngredient rdf:resource="http://example.org/german-cuisine#Meatballs"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#dinner"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#lunch"/>
-        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#ground_beef,_ground_pork"/>
+        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#ground_beef"/>
         <germ:hasPreparationMethod rdf:resource="http://example.org/german-cuisine#boiling"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Austria"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Bavaria"/>
@@ -42892,7 +42884,7 @@
         <germ:hasMainIngredient rdf:resource="http://example.org/german-cuisine#Green_Sauce"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#dinner"/>
         <germ:hasMealEatenAtPartOfDay rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#lunch"/>
-        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#Tafelspitz"/>
+        <germ:hasMeatCut rdf:resource="http://example.org/german-cuisine#pork_cutlet"/>
         <germ:hasPreparationMethod rdf:resource="http://example.org/german-cuisine#blended"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Austria"/>
         <germ:hasRegion rdf:resource="http://example.org/german-cuisine#Bavaria"/>
@@ -44867,34 +44859,10 @@
     
 
 
-    <!-- http://example.org/german-cuisine#beef,_pork -->
-
-    <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#beef,_pork">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://example.org/german-cuisine#beef,_pork,_veal -->
-
-    <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#beef,_pork,_veal">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://example.org/german-cuisine#beef,_pork,_veal,_lamb,_turkey -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#beef,_pork,_veal,_lamb,_turkey">
         <rdf:type rdf:resource="http://example.org/german-cuisine#Variation"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://example.org/german-cuisine#beef_chuck,_pork_shoulder,_lamb_shoulder -->
-
-    <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#beef_chuck,_pork_shoulder,_lamb_shoulder">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -46432,38 +46400,6 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#grilled_pork_chops,_different_salad_dressings">
         <rdf:type rdf:resource="http://example.org/german-cuisine#Variation"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://example.org/german-cuisine#ground_beef,_ground_pork -->
-
-    <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#ground_beef,_ground_pork">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://example.org/german-cuisine#ground_beef,_ground_veal -->
-
-    <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#ground_beef,_ground_veal">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://example.org/german-cuisine#ground_beef,_veal -->
-
-    <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#ground_beef,_veal">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://example.org/german-cuisine#ground_pork,_ground_veal -->
-
-    <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#ground_pork,_ground_veal">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
