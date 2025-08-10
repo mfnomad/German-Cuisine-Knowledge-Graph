@@ -195,6 +195,22 @@
     
 
 
+    <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Appetizer -->
+
+    <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Appetizer">
+        <rdfs:subClassOf rdf:resource="http://example.org/german-cuisine#Dish"/>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Beef -->
+
+    <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Beef">
+        <rdfs:subClassOf rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+    </owl:Class>
+    
+
+
     <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Beer -->
 
     <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Beer">
@@ -207,6 +223,14 @@
 
     <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Brandy">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Alcoholic"/>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Chicken -->
+
+    <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Chicken">
+        <rdfs:subClassOf rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:Class>
     
 
@@ -227,6 +251,22 @@
     
 
 
+    <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Condiment -->
+
+    <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Condiment">
+        <rdfs:subClassOf rdf:resource="http://example.org/german-cuisine#Dish"/>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Dessert -->
+
+    <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Dessert">
+        <rdfs:subClassOf rdf:resource="http://example.org/german-cuisine#Dish"/>
+    </owl:Class>
+    
+
+
     <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#DietType -->
 
     <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#DietType">
@@ -235,10 +275,26 @@
     
 
 
+    <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Duck -->
+
+    <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Duck">
+        <rdfs:subClassOf rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+    </owl:Class>
+    
+
+
     <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#German -->
 
     <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#German">
         <rdfs:subClassOf rdf:resource="http://example.org/german-cuisine#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Goose -->
+
+    <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Goose">
+        <rdfs:subClassOf rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:Class>
     
 
@@ -275,6 +331,14 @@
     
 
 
+    <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#MainCourse -->
+
+    <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#MainCourse">
+        <rdfs:subClassOf rdf:resource="http://example.org/german-cuisine#Dish"/>
+    </owl:Class>
+    
+
+
     <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Malt_beverage -->
 
     <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Malt_beverage">
@@ -307,10 +371,34 @@
     
 
 
+    <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Pork -->
+
+    <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Pork">
+        <rdfs:subClassOf rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Rabbit -->
+
+    <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Rabbit">
+        <rdfs:subClassOf rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+    </owl:Class>
+    
+
+
     <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Soda -->
 
     <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Soda">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#NonAlcoholic"/>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Soup -->
+
+    <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Soup">
+        <rdfs:subClassOf rdf:resource="http://example.org/german-cuisine#Dish"/>
     </owl:Class>
     
 
@@ -331,6 +419,22 @@
     
 
 
+    <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Turkey -->
+
+    <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Turkey">
+        <rdfs:subClassOf rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Veal -->
+
+    <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Veal">
+        <rdfs:subClassOf rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+    </owl:Class>
+    
+
+
     <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Vegan -->
 
     <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Vegan">
@@ -343,6 +447,14 @@
 
     <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Vegetarian">
         <rdfs:subClassOf rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#DietType"/>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Venison -->
+
+    <owl:Class rdf:about="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Venison">
+        <rdfs:subClassOf rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:Class>
     
 
@@ -5632,7 +5744,7 @@
     <!-- http://example.org/german-cuisine#Cured_Pork_Shoulder -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#Cured_Pork_Shoulder">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Pork"/>
     </owl:NamedIndividual>
     
 
@@ -21670,7 +21782,7 @@
     <!-- http://example.org/german-cuisine#Nuremberg_Sausage -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#Nuremberg_Sausage">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Pork"/>
     </owl:NamedIndividual>
     
 
@@ -23784,7 +23896,7 @@
     <!-- http://example.org/german-cuisine#Prosciutto -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#Prosciutto">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Pork"/>
     </owl:NamedIndividual>
     
 
@@ -32625,8 +32737,8 @@
     <!-- http://example.org/german-cuisine#Turkey_Breast -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#Turkey_Breast">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Turkey"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#MainIngredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -36421,8 +36533,8 @@
     <!-- http://example.org/german-cuisine#bacon -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#bacon">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Pork"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -36527,8 +36639,8 @@
     <!-- http://example.org/german-cuisine#beef -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#beef">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Beef"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -36544,7 +36656,7 @@
     <!-- http://example.org/german-cuisine#beef_brisket -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#beef_brisket">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Beef"/>
     </owl:NamedIndividual>
     
 
@@ -36560,7 +36672,7 @@
     <!-- http://example.org/german-cuisine#beef_chuck -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#beef_chuck">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Beef"/>
     </owl:NamedIndividual>
     
 
@@ -36568,7 +36680,7 @@
     <!-- http://example.org/german-cuisine#beef_cubes -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#beef_cubes">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Beef"/>
     </owl:NamedIndividual>
     
 
@@ -36584,8 +36696,8 @@
     <!-- http://example.org/german-cuisine#beef_fillet -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#beef_fillet">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Beef"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -36593,7 +36705,7 @@
     <!-- http://example.org/german-cuisine#beef_mince -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#beef_mince">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Beef"/>
     </owl:NamedIndividual>
     
 
@@ -36609,7 +36721,7 @@
     <!-- http://example.org/german-cuisine#beef_roast -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#beef_roast">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Beef"/>
     </owl:NamedIndividual>
     
 
@@ -36617,7 +36729,7 @@
     <!-- http://example.org/german-cuisine#beef_round -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#beef_round">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Beef"/>
     </owl:NamedIndividual>
     
 
@@ -36625,7 +36737,7 @@
     <!-- http://example.org/german-cuisine#beef_shank -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#beef_shank">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Beef"/>
     </owl:NamedIndividual>
     
 
@@ -36633,7 +36745,7 @@
     <!-- http://example.org/german-cuisine#beef_steak -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#beef_steak">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Beef"/>
     </owl:NamedIndividual>
     
 
@@ -36820,8 +36932,8 @@
     <!-- http://example.org/german-cuisine#bratwurst -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#bratwurst">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Pork"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -37373,8 +37485,8 @@
     <!-- http://example.org/german-cuisine#chicken -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#chicken">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Chicken"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -37382,8 +37494,8 @@
     <!-- http://example.org/german-cuisine#chicken_breast -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#chicken_breast">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Chicken"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -37415,8 +37527,8 @@
     <!-- http://example.org/german-cuisine#chicken_liver -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#chicken_liver">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Chicken"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -37424,7 +37536,7 @@
     <!-- http://example.org/german-cuisine#chicken_pieces -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#chicken_pieces">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Chicken"/>
     </owl:NamedIndividual>
     
 
@@ -38075,8 +38187,8 @@
     <!-- http://example.org/german-cuisine#duck_breast -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#duck_breast">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Duck"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -38084,7 +38196,7 @@
     <!-- http://example.org/german-cuisine#duck_leg -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#duck_leg">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Duck"/>
     </owl:NamedIndividual>
     
 
@@ -38542,8 +38654,8 @@
     <!-- http://example.org/german-cuisine#game_meat -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#game_meat">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Venison"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -38615,8 +38727,8 @@
     <!-- http://example.org/german-cuisine#goose_leg -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#goose_leg">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Goose"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -38624,8 +38736,8 @@
     <!-- http://example.org/german-cuisine#goose_legs -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#goose_legs">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Duck"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -39045,8 +39157,8 @@
     <!-- http://example.org/german-cuisine#kabanossi -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#kabanossi">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Pork"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -40539,8 +40651,8 @@
     <!-- http://example.org/german-cuisine#rabbit_legs -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#rabbit_legs">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Rabbit"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -41234,8 +41346,8 @@
     <!-- http://example.org/german-cuisine#smoked_pork -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#smoked_pork">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Pork"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -41243,8 +41355,8 @@
     <!-- http://example.org/german-cuisine#smoked_pork_belly -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#smoked_pork_belly">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Pork"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -41840,7 +41952,7 @@
     <!-- http://example.org/german-cuisine#turkey_thigh -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#turkey_thigh">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Turkey"/>
     </owl:NamedIndividual>
     
 
@@ -41929,8 +42041,8 @@
     <!-- http://example.org/german-cuisine#veal_cheeks -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#veal_cheeks">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Veal"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -41938,7 +42050,7 @@
     <!-- http://example.org/german-cuisine#veal_scallop -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#veal_scallop">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Veal"/>
     </owl:NamedIndividual>
     
 
@@ -41954,7 +42066,7 @@
     <!-- http://example.org/german-cuisine#veal_shoulder -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#veal_shoulder">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Veal"/>
     </owl:NamedIndividual>
     
 
@@ -41962,7 +42074,7 @@
     <!-- http://example.org/german-cuisine#veal_steak -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#veal_steak">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Veal"/>
     </owl:NamedIndividual>
     
 
@@ -41978,7 +42090,7 @@
     <!-- http://example.org/german-cuisine#veal_strips -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#veal_strips">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Veal"/>
     </owl:NamedIndividual>
     
 
@@ -42108,8 +42220,8 @@
     <!-- http://example.org/german-cuisine#venison -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#venison">
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Venison"/>
         <rdf:type rdf:resource="http://example.org/german-cuisine#Ingredient"/>
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
     </owl:NamedIndividual>
     
 
@@ -42117,7 +42229,7 @@
     <!-- http://example.org/german-cuisine#venison_haunch -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#venison_haunch">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Venison"/>
     </owl:NamedIndividual>
     
 
@@ -42125,7 +42237,7 @@
     <!-- http://example.org/german-cuisine#venison_shoulder -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#venison_shoulder">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Venison"/>
     </owl:NamedIndividual>
     
 
@@ -42133,7 +42245,7 @@
     <!-- http://example.org/german-cuisine#venison_steak -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#venison_steak">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Venison"/>
     </owl:NamedIndividual>
     
 
@@ -42349,7 +42461,7 @@
     <!-- http://example.org/german-cuisine#whole_duck -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#whole_duck">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Duck"/>
     </owl:NamedIndividual>
     
 
@@ -42357,7 +42469,7 @@
     <!-- http://example.org/german-cuisine#whole_goose -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#whole_goose">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Goose"/>
     </owl:NamedIndividual>
     
 
@@ -42365,7 +42477,7 @@
     <!-- http://example.org/german-cuisine#whole_rabbit -->
 
     <owl:NamedIndividual rdf:about="http://example.org/german-cuisine#whole_rabbit">
-        <rdf:type rdf:resource="http://example.org/german-cuisine#MeatCut"/>
+        <rdf:type rdf:resource="file:/C:/Users/Mati/Desktop/German-Food-KG/ont-engineering-scripts/test.owl#Rabbit"/>
     </owl:NamedIndividual>
     
 
