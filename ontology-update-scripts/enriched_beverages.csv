@@ -1,0 +1,5 @@
+﻿name,description,category,class,subclass,HasMainIngredient,HasIngredient,HasRegion,HasServingTemperature,HasFlavorProfile,HasAlcoholContent,IsCarbonated,IsGermanStaple
+Lager,"Along with ale, lager is one of the two ",Beverage,Alcoholic,Beer,Barley,[],Bavaria,RoomTemperature,"Bitter, Malty",5.0,true,true
+Gluehwein,Gluehwein is a type of mulled wine enjoy,Beverage,Beverage,Wine,Wine,[],Bavaria,Hot,"Sweet, Fruity",12.0,false,true
+Dunkel,Dunkel is a German dark lager that is mo,Beverage,Alcoholic,Beer,Barley,[],"Bavaria, Munich",RoomTemperature,"Bitter, Malty, Dark",null,true,true
+Koelsch,Koelsch (the Low German name for Cologne,Beverage,Alcoholic,Beer,Wheat,[],Cologne,RoomTemperature,"Fruity, Bitter",5.0,true,true
